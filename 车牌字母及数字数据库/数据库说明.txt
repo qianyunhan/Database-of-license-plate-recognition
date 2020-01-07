@@ -1,0 +1,11 @@
+图片数据库（总共包含47466张黑底白字的车牌汉字的灰度图片，每张图片的大小为20*20像素，包含数字0~9和字母24个（26个字母去掉O和I））
+    ----cnn_char_train（17034张作为训练集）
+    ----cnn_char_test（30432张作为测试集）
+
+标签文件（文件夹中每个文件的每一行都由图片名和标签（0~33）组成，中间用空格隔开）
+    ----cnn_char_train.txt（训练集标签文件）
+    ----cnn_char_test.txt（测试集标签文件）
+
+tfRecords文件
+    ----cnn_char_train.tfrecords（训练集tfRecords文件）
+    ----cnn_char_test.tfrecords（测试集tfRecords文件）
